@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Bungee+Shade&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   /* margin-top: 2.5%; */
+    color: rgb(27, 23, 23);
+    background-color:#f16059;
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+    
+}
+h1{
+    font-family: 'Bungee Shade', cursive;
+    font-size: 4rem;
+}
+h3,h4{
+    font-family: 'Bungee', cursive;
+    text-transform: uppercase;
+
+}
+h3{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+h4{
+    font-size: 2.1rem;
+    font-weight: 300;
+}
+
+/* Heading */
+
+.heading{
+    text-align: center;
+    padding: 10px;
+}
+.heading h1,h3,h4{
+    padding: 8px 0;
+}
+
+/* Images */
+
+.photo img{
+    width:100%;
+   max-width: 370px;
+   height: auto;
+   margin: 30px 0;
+}
+
+/* Time Table */
+
+.time-table{
+    display: flex;
+    flex-direction: column;
+}
+.time-table label{
+    padding: 8px;
+    font-family: 'Bungee', sans-serif;
+}
+.time-table select{
+    border: none;
+    outline: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    border-radius: 10px;
+    padding: 4px ;
+    margin: 0 5px;
+}
+
+/* Button */
+
+.btn{
+    color: rgb(27, 23, 23);
+    border-radius: 10px;
+    text-transform: uppercase;
+    padding: 12px 80px;
+    font-family: 'Bungee', sans-serif;
+    background-color: rgb(134, 134, 179);
+    border: none;
+    font-size: 1.2rem;
+}
+
+.btn-add{
+    background-color: rgb(84, 133, 35);
+}
