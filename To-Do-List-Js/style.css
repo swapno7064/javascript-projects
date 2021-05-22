@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background: rgb(53, 110, 156);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+input{
+    width: 47vw;
+    padding: 8px 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+
+}
+h1{
+    color: #fff;
+    font-size: 2.25rem;
+}
+li{
+    color: #fff;
+    list-style: none;
+    padding: 8px 12px;
+    position: relative;
+    border: 1px solid #333;
+    border-radius: 8px;
+    width: 50vw;
+    text-align: start;
+    background: rgb(44, 109, 146);
+    transition-duration: 350ms;
+    margin: 5px 0;
+}
+li:hover{
+    background: rgb(96, 158, 197);
+}
+li button{
+    color: inherit;
+    top: 15%;
+    right: 2%;
+    position:absolute;
+    outline: none;
+    border: none;
+    background: inherit;
+}
+
+p{
+    font-size: 1.15rem;
+    font-weight: 600;
+}
+.delete{
+    display: none;
+}
+.done{
+    background-color: rgb(64, 114, 64);
+}
+
+.container p{
+    padding: 1.5rem 0;
+}
+
+.first{
+    color: yellow;
+}
+.second{
+    color: rgb(32, 85, 57);
+}
+.third{
+    color:rgb(44, 55, 63) ;
+}
+
+.item-input{
+    margin: 20px 0;
+}
+
+.btn{
+    padding: 7px;
+    border: none;
+    border-radius: 5px;
+    transition-duration: 300ms;
+}
+.btn:hover{
+    padding: 5px;
+
+
+}
+
+@media screen and (max-width:650px) {
+    input{
+        width: 67vw;
+      
+    
+    }
+    li{
+       
+        width: 75vw;
+    }
+}
